@@ -22,7 +22,7 @@ const paintDom = (data, num) => {
     <div class="news">
       <div class="heading">
         <i class="fas fa-caret-up"></i>
-        <a href="${data.url}"<h3>${data.title}</h3></a>
+        <a href="${data.url}"<h3>${data.title} (${data.url})</h3></a>
       </div>
       <div class="comment">
         <p>${data.score} Points by ${data.by} 27 minutes ago | hide | ${data.descendants} comment</p>
